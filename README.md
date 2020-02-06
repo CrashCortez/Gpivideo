@@ -5,6 +5,10 @@ Themes for the Gpi made by [KALEL1981](https://github.com/KALEL1981) are already
 
 # Manual install
 
+```
+suod apt-get install mpv
+```
+
 the video folder goes in /opt/retropie/configs
 
 the videos floder goes in /home/pi/RetroPie/roms
