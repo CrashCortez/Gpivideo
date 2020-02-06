@@ -33,6 +33,18 @@ the videos folder goes in /home/pi/RetroPie/roms
 
 the es_systems.cfg goes into /etc/emulationstation or /opt/retropie/configs/all/emulationstation
 
+Add the following you es_systems.cfg
+```
+  <system>
+    <name>videos</name>
+    <fullname>Videos</fullname>
+    <path>/home/pi/RetroPie/roms/videos</path>
+    <extension>.avi .AVI .mp4 .MP4 .mov .MOV</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ video %ROM%</command>
+    <platform>videos</platform>
+    <theme>videos</theme>
+  </system>
+```
 the system.png is for your theme and note that theme folder needs to be named videos
 
 # Controls
