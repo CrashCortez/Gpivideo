@@ -80,6 +80,7 @@ FAQ
 Q: Does this work on the CM3 or the Pi3a+ cart mods?
 ----
 A: I have had it tested on the CM3 version worked well with the extra power, I have not had it tested on the pi3a+ mod. 
+
 Q: Will this work with any retropie setup?
 ----
 A: Yes, but you will have to setup the controls yourself if you are not using the GPi case. May I suggest using the xboxdrv and setting up a system like SinisterSpatula did.
