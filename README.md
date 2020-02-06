@@ -17,6 +17,7 @@ A: Yes, but I only tested the 3 I listed. you will have to edit teh es_systems.c
 
 Script install
 --------
+Using putty, after connectiong to your Gpi, copy and pate this into you terminal and hit enter.
 ```
 wget https://raw.githubusercontent.com/CrashCortez/Gpivideo/master/setup.sh && sudo chmod a+x setup.sh && sudo ./setup.sh
 ```
