@@ -1,4 +1,6 @@
 # Gpivideo
+Launch videos right from the main menu of Eulationstation, and allows you to treat video files as roms.
+
 Gpivideo uses mpv as the player, and uses the advanced controller framework for the gpi by [SinisterSpatula](https://github.com/SinisterSpatula/Gpi2). 
 
 Themes for the Gpi made by [KALEL1981](https://github.com/KALEL1981) are already themed for the video "system".
