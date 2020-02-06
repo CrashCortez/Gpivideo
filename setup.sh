@@ -9,7 +9,7 @@ mkdir videos
 cd
 cd /etc/emulationstation
 sudo cp es_systems.cfg es_systems.cfg.old
-sudo weget https://github.com/CrashCortez/Gpivideo/blob/master/es_systems.cfg
+sudo wget https://github.com/CrashCortez/Gpivideo/blob/master/es_systems.cfg
 cd
 print "Installing MPV"
 sudo apt-get install mpv
