@@ -93,5 +93,18 @@ How to rename and save just in case
 ```
 sudo mv /opt/retropie/configs/all/emulationstation/es_systems.cfg /opt/retropie/configs/all/emulationstation/es_systems.cfg.old
 ```
+the es_systems.cfg goes into /etc/emulationstation or /opt/retropie/configs/all/emulationstation
 
+Or manually add the following your es_systems.cfg
+```
+  <system>
+    <name>videos</name>
+    <fullname>Videos</fullname>
+    <path>/home/pi/RetroPie/roms/videos</path>
+    <extension>.avi .AVI .mp4 .MP4 .mov .MOV</extension>
+    <command>/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ video %ROM%</command>
+    <platform>videos</platform>
+    <theme>videos</theme>
+  </system>
+```
 # See you at the Movies.
