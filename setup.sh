@@ -7,7 +7,7 @@ sudo wget https://raw.githubusercontent.com/CrashCortez/Gpivideo/master/video/em
 cd
 cd /home/pi/RetroPie/roms
 sudo mkdir videos
-sudo chmod 777 -R videos
+sudo chmod -R 777 videos
 cd
 cd /etc/emulationstation
 sudo mv es_systems.cfg es_systems.cfg.old
