@@ -3,11 +3,26 @@ Gpivideo uses mpv as the player, and uses the advanced controller framework for 
 
 Themes for the Gpi made by [KALEL1981](https://github.com/KALEL1981) are already themed for the video "system".
 
-# Manual install
+FAQ 
+-------
+Q: Will this work with any retropie setup?
+A: Yes, but you will have to setup the controls yourself if you are not using the GPi case. May I suggest using the xboxdrv and setting up a system like SinisterSpatula did.
 
+# Lets get to it!
+
+Script install
+--------
+```
+wget https://raw.githubusercontent.com/CrashCortez/Gpivideo/master/setup.sh && sudo chmod a+x setup.sh && sudo ./setup.sh
+```
+
+Manual install
+-------
 ```
 suod apt-get install mpv
 ```
+
+Using Filezilla or WinSCP put the folders and files in the folowing locations. You might need root access.
 
 the video folder goes in /opt/retropie/configs
 
@@ -16,12 +31,6 @@ the videos floder goes in /home/pi/RetroPie/roms
 the es_systems.cfg goes into /etc/emulationstation or /opt/retropie/configs/all/emulationstation
 
 the system.png is for your theme and note that theme folder needs to be named videos
-
-# Script install
-
-```
-wget https://raw.githubusercontent.com/CrashCortez/Gpivideo/master/setup.sh && sudo chmod a+x setup.sh && sudo ./setup.sh
-```
 
 # Controls
 hold select and start to exit 
