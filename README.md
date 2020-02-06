@@ -11,7 +11,7 @@ A: Yes, but you will have to setup the controls yourself if you are not using th
 
 Q: Will it play  other file formats?
 ----
-A Yes, but I only tested the 3 I listed. you will have to edit teh es_systems.cfg and add the extra extentions. I would check to see if MPV plays the type you want to use.
+A: Yes, but I only tested the 3 I listed. you will have to edit teh es_systems.cfg and add the extra extentions. I would check to see if MPV plays the type you want to use.
 
 # Lets get to it!
 
@@ -22,7 +22,7 @@ wget https://raw.githubusercontent.com/CrashCortez/Gpivideo/master/setup.sh && s
 ```
 Using fillzilla or WinSCP put some .mp4 , .mov , or .avi files in your newly created /home/pi/RetroPie/roms/videos folder. 
 
-Some testers said that they recieed a permmisions issue, if this happens, on the Gpi it self go into go into RetroPie-Setup -> Configurations/Tools -. resetromdir (the one that reset the ownership of the roms folders). 
+Some testers said that they recieed a permmisions issue, if this happens, on the Gpi it self go into go into RetroPie-Setup -> Configurations/Tools -> resetromdir (the one that reset the ownership of the roms folders). 
 
 Restart Emulationstation or Reboot the gpi and your new "system" will be there. treat your .mp4, .mov, .avi's as if they were roms.
 
