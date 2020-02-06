@@ -11,7 +11,7 @@ A: Yes, but you will have to setup the controls yourself if you are not using th
 
 Q: Will it play  other file formats?
 ----
-A Yes, but I only tested the 3 i listed. you will have to edit teh es_systems.cfg and add the extra extentions. I would check to see if MPV plays the type you want to use.
+A Yes, but I only tested the 3 I listed. you will have to edit teh es_systems.cfg and add the extra extentions. I would check to see if MPV plays the type you want to use.
 
 # Lets get to it!
 
