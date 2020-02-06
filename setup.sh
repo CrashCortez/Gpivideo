@@ -8,7 +8,7 @@ cd /pi/RetroPie/roms
 mkdir videos
 cd
 cd /etc/emulationstation
-sudo cp es_systems.cfg es_systems.cfg.old
+sudo mv es_systems.cfg es_systems.cfg.old
 sudo wget https://github.com/CrashCortez/Gpivideo/blob/master/es_systems.cfg
 cd
 print "Installing MPV"
