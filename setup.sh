@@ -5,7 +5,7 @@ sudo mkdir video
 cd video
 sudo wget https://raw.githubusercontent.com/CrashCortez/Gpivideo/master/video/emulators.cfg
 cd
-cd /pi/RetroPie/roms
+cd /home/pi/RetroPie/roms
 sudo mkdir videos
 cd
 cd /etc/emulationstation
