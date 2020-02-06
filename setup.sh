@@ -2,6 +2,7 @@
 print "Setting up Files and Folders"
 cd /opt/retropie/configs
 sudo mkdir video
+cd video
 sudo wget https://raw.githubusercontent.com/CrashCortez/Gpivideo/master/video/emulators.cfg
 cd
 cd /pi/RetroPie/roms
