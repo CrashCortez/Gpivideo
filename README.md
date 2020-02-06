@@ -15,6 +15,7 @@ Script install
 ```
 wget https://raw.githubusercontent.com/CrashCortez/Gpivideo/master/setup.sh && sudo chmod a+x setup.sh && sudo ./setup.sh
 ```
+Put some .mp4 , .mov , or .avi files in your /home/pi/RetroPie/roms/videos folder
 
 Manual install
 -------
@@ -26,7 +27,7 @@ Using Filezilla or WinSCP put the folders and files in the folowing locations. Y
 
 the video folder goes in /opt/retropie/configs
 
-the videos floder goes in /home/pi/RetroPie/roms
+the videos folder goes in /home/pi/RetroPie/roms
 
 the es_systems.cfg goes into /etc/emulationstation or /opt/retropie/configs/all/emulationstation
 
