@@ -5,25 +5,6 @@ Gpivideo uses mpv as the player, and uses the advanced controller framework for 
 
 Themes for the Gpi made by [KALEL1981](https://github.com/KALEL1981) are already themed for the video "system".
 
-FAQ 
--------
-Q: Will this work with any retropie setup?
-----
-A: Yes, but you will have to setup the controls yourself if you are not using the GPi case. May I suggest using the xboxdrv and setting up a system like SinisterSpatula did.
-
-Q: Will it play  other file formats?
-----
-A: Yes, but I only tested the 3 I listed. you will have to edit the es_systems.cfg and add the extra extentions. I would check to see if MPV plays the type you want to use.
-
-Q: Even after running the setup my system will not show, even with video files in my rom folder.
-----
-A: you probally have a modified es_systems.cfg in your /opt/retropie/configs/all/emulationstation folder. If you do eirther run the line below in putty or mannually modify or delete your es_systems.cfg. The location of your es_systems.cfg should be in etc/emulationstation.
-
-How to rename and save just in case
-```
-sudo mv /opt/retropie/configs/all/emulationstation/es_systems.cfg /opt/retropie/configs/all/emulationstation/es_systems.cfg.old
-```
-
 # Lets get to it!
 
 Script install
@@ -80,5 +61,25 @@ L subtitles language toggle
 start volume up
 
 slect volume down
+
+
+FAQ 
+-------
+Q: Will this work with any retropie setup?
+----
+A: Yes, but you will have to setup the controls yourself if you are not using the GPi case. May I suggest using the xboxdrv and setting up a system like SinisterSpatula did.
+
+Q: Will it play  other file formats?
+----
+A: Yes, but I only tested the 3 I listed. you will have to edit the es_systems.cfg and add the extra extentions. I would check to see if MPV plays the type you want to use.
+
+Q: Even after running the setup my system will not show, even with video files in my rom folder.
+----
+A: you probally have a modified es_systems.cfg in your /opt/retropie/configs/all/emulationstation folder. If you do eirther run the line below in putty or mannually modify or delete your es_systems.cfg. The location of your es_systems.cfg should be in etc/emulationstation.
+
+How to rename and save just in case
+```
+sudo mv /opt/retropie/configs/all/emulationstation/es_systems.cfg /opt/retropie/configs/all/emulationstation/es_systems.cfg.old
+```
 
 # See you at the Movies.
