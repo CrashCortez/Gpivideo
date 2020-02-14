@@ -112,3 +112,6 @@ Or manually add the following your es_systems.cfg
   </system>
 ```
 # See you at the Movies.
+
+| [YouTube](https://www.youtube.com/channel/UCwnTzGTRsNpen-2Nz38yGAQ) | [Facebook](https://www.facebook.com/crash.cortez.75) | [Twitter](https://twitter.com/CrashGaming14) |
+| --- | --- | --- |
